@@ -81,7 +81,7 @@
 
 					// Scrollex.
 						$section.scrollex({
-							mode: 'middle',
+							mode: 'top',
 							top: '-20vh',
 							bottom: '-20vh',
 							initialize: function() {
