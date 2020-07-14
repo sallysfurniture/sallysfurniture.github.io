@@ -82,8 +82,8 @@
 					// Scrollex.
 						$section.scrollex({
 							mode: 'top',
-							top: '-30vh',
-							bottom: '-20vh',
+							top: '-10vh',
+							bottom: '15vh',
 							initialize: function() {
 
 								// Deactivate section.
@@ -103,11 +103,18 @@
 
 									}
 
+
+							
+
+
 								// Otherwise, if this section's link is the one that's locked, unlock it.
 									else if ($this.hasClass('active-locked'))
 										$this.removeClass('active-locked');
 
 							}
+
+							
+							
 						});
 
 				});
